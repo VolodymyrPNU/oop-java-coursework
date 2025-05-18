@@ -1,0 +1,49 @@
+N   State                Population    Capital                     
+1   United States        329.5  Washington  
+2   Brazil               211.0  Brasilia            
+3   Mexico               127.6  Mexico City         
+4   Colombia             50.3   Bogota              
+5   Argentina            44.9   Buenos Aires        
+6   Canada               37.6   Ottawa              
+7   Peru                 32.5   Lima                
+8   Venezuela            28.5   Caracas             
+9   Chile                19.0   Santiago            
+10  Guatemala            17.9   Guatemala City      
+11  Ecuador              17.4   Quito               
+12  Bolivia              11.5   La Paz              
+13  Haiti                11.3   Port-au-Prince      
+14  Cuba                 11.3   Havana              
+15  Dominican Republic   10.7   Santo Domingo       
+16  Honduras             9.7    Tegucigalpa         
+17  Paraguay             7.0    Asuncion            
+18  Nicaragua            6.5    Managua             
+19  El Salvador          6.4    San Salvador        
+20  Costa Rica           5.0    San Jose            
+21  Panama               4.2    Panama City         
+22  Uruguay              3.5    Montevideo          
+23  Jamaica              2.9    Kingston            
+24  Trinidad and Tobago  1.4    Port of Spain       
+25  Guyana               0.8    Georgetown          
+26  Suriname             0.6    Paramaribo          
+27  Belize               0.4    Belmopan            
+28  Bahamas              0.4    Nassau              
+29  Barbados             0.3    Bridgetown          
+30  Saint Lucia          0.2    Castries            
+31  Grenada              0.1    St. George's        
+32  St. Vincent          0.1    Kingstown           
+33  Antigua and Barbuda  0.1    St. John's          
+34  Dominica             0.1    Roseau              
+35  Saint Kitts and Nevis 0.1    Basseterre          
+36  Greenland            0.1    Nuuk                
+37  Bermuda              0.1    Hamilton            
+38  Cayman Islands       0.1    George Town         
+39  Aruba                0.1    Oranjestad          
+40  Puerto Rico          3.2    San Juan            
+41  US Virgin Islands    0.1    Charlotte Amalie              
+42  Montserrat           0.0    Plymouth            
+43  Anguilla             0.0    The Valley          
+44  Sint Maarten         0.0    Philipsburg         
+45  Curacao              0.2    Willemstad          
+46  Bonaire              0.0    Kralendijk                     
+47  Martinique           0.4    Fort-de-France      
+48  Guadeloupe           0.4    Basse-Terre         

@@ -1,0 +1,24 @@
+N State Population Capital
+1 Bangladesh 163.0 Dhaka
+2 Brazil 211.0 Brasilia
+3 China 1397.7 Beijing
+4 Colombia 50.3 Bogota
+5 France 67.3 Paris
+6 Germany 83.1 Berlin
+7 India 1352.6 New Delhi
+8 Indonesia 270.6 Jakarta
+9 Iran 83.0 Tehran
+10 Italy 60.5 Rome
+11 Japan 126.5 Tokyo
+12 Mexico 127.6 Mexico City
+13 Myanmar 54.0 Naypyidaw
+14 Pakistan 216.6 Islamabad
+15 Philippines 108.1 Manila
+16 Russia 144.5 Moscow
+17 South Korea 51.2 Seoul
+18 Thailand 69.6 Bangkok
+19 Turkey 83.6 Ankara
+20 Turkey 83.6 Ankara
+21 United Kingdom 67.2 London
+22 United States 329.5 Washington
+23 Vietnam 96.5 Hanoi

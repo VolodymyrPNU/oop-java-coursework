@@ -1,0 +1,51 @@
+N   State                Population    Capital             
+1   Ukraine              44.6   Kyiv                
+2   Poland               38.4   Warsaw              
+3   Germany              83.1   Berlin              
+4   France               67.3   Paris               
+5   Italy                60.5   Rome                
+6   Spain                46.7   Madrid              
+7   United Kingdom       67.2   London              
+8   Romania              19.4   Bucharest           
+9   Netherlands          17.3   Amsterdam           
+10  Belgium              11.5   Brussels            
+11  Czech Republic       10.7   Prague              
+12  Greece               10.7   Athens              
+13  Portugal             10.3   Lisbon              
+14  Sweden               10.3   Stockholm           
+15  Hungary              9.8    Budapest            
+16  Austria              8.9    Vienna              
+17  Switzerland          8.5    Bern                
+18  Bulgaria             7.0    Sofia               
+19  Denmark              5.8    Copenhagen          
+20  Finland              5.5    Helsinki            
+21  Slovakia             5.5    Bratislava          
+22  Norway               5.3    Oslo                
+23  Ireland              4.9    Dublin              
+24  Croatia              4.1    Zagreb              
+25  Moldova              2.6    Chisinau            
+26  Bosnia and Herzegovina 3.3    Sarajevo            
+27  Albania              2.9    Tirana              
+28  Lithuania            2.8    Vilnius             
+29  North Macedonia      2.1    Skopje              
+30  Slovenia             2.1    Ljubljana           
+31  Latvia               1.9    Riga                
+32  Estonia              1.3    Tallinn             
+33  Cyprus               1.2    Nicosia             
+34  Luxembourg           0.6    Luxembourg City     
+35  Montenegro           0.6    Podgorica           
+36  Malta                0.5    Valletta            
+37  Iceland              0.3    Reykjavik           
+38  Andorra              0.1    Andorra la Vella    
+39  Monaco               0.0    Monaco              
+40  Liechtenstein        0.0    Vaduz               
+41  San Marino           0.0    San Marino          
+42  Vatican City         0.0    Vatican City        
+43  Serbia               7.0    Belgrade            
+44  Belarus              9.5    Minsk               
+45  Russia               144.5  Moscow              
+46  Turkey               83.6   Ankara              
+47  Georgia              3.7    Tbilisi             
+48  Armenia              3.0    Yerevan             
+49  Azerbaijan           10.0   Baku                
+50  Kazakhstan           18.5   Nur-Sultan          

@@ -1,0 +1,36 @@
+N State Population Capital
+1 Afghanistan 38.0 Kabul
+2 Argentina 44.9 Buenos Aires
+3 Belgium 11.5 Brussels
+4 Bolivia 11.5 La Paz
+5 Cambodia 16.5 Phnom Penh
+6 Canada 37.6 Ottawa
+7 Chile 19.0 Santiago
+8 Cuba 11.3 Havana
+9 Czech Republic 10.7 Prague
+10 Dominican Republic 10.7 Santo Domingo
+11 Ecuador 17.4 Quito
+12 Greece 10.7 Athens
+13 Guatemala 17.9 Guatemala City
+14 Haiti 11.3 Port-au-Prince
+15 Iraq 39.3 Baghdad
+16 Jordan 10.1 Amman
+17 Kazakhstan 18.5 Nur-Sultan
+18 Malaysia 31.9 Kuala Lumpur
+19 Nepal 28.1 Kathmandu
+20 Netherlands 17.3 Amsterdam
+21 North Korea 25.7 Pyongyang
+22 Peru 32.5 Lima
+23 Poland 38.4 Warsaw
+24 Portugal 10.3 Lisbon
+25 Romania 19.4 Bucharest
+26 Saudi Arabia 34.3 Riyadh
+27 Spain 46.7 Madrid
+28 Sri Lanka 21.8 Sri Jayawardenepura Kotte
+29 Sweden 10.3 Stockholm
+30 Syria 17.5 Damascus
+31 Taiwan 23.8 Taipei
+32 Ukraine 44.6 Kyiv
+33 Uzbekistan 33.0 Tashkent
+34 Venezuela 28.5 Caracas
+35 Yemen 29.2 Sanaa

@@ -1,0 +1,51 @@
+N   State                Population    Capital             
+1   China                1397.7 Beijing             
+2   India                1352.6 New Delhi           
+3   Indonesia            270.6  Jakarta             
+4   Pakistan             216.6  Islamabad           
+5   Bangladesh           163.0  Dhaka               
+6   Japan                126.5  Tokyo               
+7   Philippines          108.1  Manila              
+8   Vietnam              96.5   Hanoi               
+9   Iran                 83.0   Tehran              
+10  Turkey               83.6   Ankara              
+11  Thailand             69.6   Bangkok             
+12  Myanmar              54.0   Naypyidaw           
+13  South Korea          51.2   Seoul               
+14  Iraq                 39.3   Baghdad             
+15  Afghanistan          38.0   Kabul               
+16  Saudi Arabia         34.3   Riyadh              
+17  Uzbekistan           33.0   Tashkent            
+18  Malaysia             31.9   Kuala Lumpur        
+19  Yemen                29.2   Sanaa               
+20  Nepal                28.1   Kathmandu           
+21  North Korea          25.7   Pyongyang           
+22  Sri Lanka            21.8   Sri Jayawardenepura Kotte
+23  Syria                17.5   Damascus            
+24  Cambodia             16.5   Phnom Penh          
+25  Jordan               10.1   Amman               
+26  Azerbaijan           10.0   Baku                
+27  United Arab Emirates 9.8    Abu Dhabi           
+28  Tajikistan           9.3    Dushanbe            
+29  Israel               8.7    Jerusalem           
+30  Hong Kong            7.5    Hong Kong           
+31  Laos                 7.2    Vientiane           
+32  Lebanon              6.8    Beirut              
+33  Kyrgyzstan           6.3    Bishkek             
+34  Turkmenistan         5.9    Ashgabat            
+35  Singapore            5.8    Singapore           
+36  Oman                 5.0    Muscat              
+37  Palestine            4.9    Ramallah            
+38  Kuwait               4.2    Kuwait City         
+39  Georgia              3.7    Tbilisi             
+40  Mongolia             3.2    Ulaanbaatar         
+41  Armenia              3.0    Yerevan             
+42  Qatar                2.8    Doha                
+43  Bahrain              1.6    Manama              
+44  Timor-Leste          1.3    Dili                
+45  Cyprus               1.2    Nicosia             
+46  Bhutan               0.8    Thimphu             
+47  Maldives             0.5    Male                
+48  Brunei               0.4    Bandar Seri Begawan 
+49  Macau                0.6    Macau               
+50  Taiwan               23.8   Taipei              
