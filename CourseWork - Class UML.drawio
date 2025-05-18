@@ -1,0 +1,265 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="6046" dy="3027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Main" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Main&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ main(String[] args)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2090" y="-913" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AppConfig" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AppConfig&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- List&amp;lt;String&amp;gt; inputFiles&lt;br&gt;- String outputLowPopFile&lt;br&gt;- String outputMidPopFile&lt;br&gt;- String outputHighPopFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ getInputFiles(): List&amp;lt;String&amp;gt;&lt;br&gt;+ getOutputLowPopFile(): String&lt;br&gt;+ getOutputMidPopFile(): String&lt;br&gt;+ getOutputHighPopFile(): String&lt;br&gt;+ loadConfig(String configFile): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2360" y="-738" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="AppConfigNote" value="Клас для завантаження конфігурації (шляхи до файлів, налаштування). Наразі не реалізований, але є ідеєю для майбутнього." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2360" y="-818" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UserInterface" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;UserInterface&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ start(): void&lt;br&gt;+ selectSortType(): SortType&lt;br&gt;+ displayMessage(String message): void&lt;br&gt;+ displayError(String errorMessage): void&lt;br&gt;+ getOutputFilenames(): OutputFilePaths&lt;br&gt;+ getInputFilenames(): List&amp;lt;String&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1740" y="-958" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ConsoleUI" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ConsoleUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- Scanner scanner&lt;br&gt;- CountryService countryService&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ ConsoleUI(CountryService service)&lt;br&gt;+ start(): void&lt;br&gt;+ selectSortType(): SortType&lt;br&gt;+ displayMessage(String message): void&lt;br&gt;+ displayError(String errorMessage): void&lt;br&gt;+ getOutputFilenames(): OutputFilePaths&lt;br&gt;+ getInputFilenames(): List&amp;lt;String&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1340" y="-728" width="320" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SwingUI" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SwingUI&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- JFrame frame&lt;br&gt;- CountryService countryService&lt;br&gt;- JComboBox&amp;lt;SortType&amp;gt; sortTypeComboBox&lt;br&gt;- JList&amp;lt;String&amp;gt; inputFilesList&lt;br&gt;- JTextField outputLowPopField, outputMidPopField, outputHighPopField&lt;br&gt;- JTextArea logArea&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ SwingUI(CountryService service)&lt;br&gt;+ start(): void&lt;br&gt;+ selectSortType(): SortType&lt;br&gt;+ displayMessage(String message): void&lt;br&gt;+ displayError(String errorMessage): void&lt;br&gt;+ getOutputFilenames(): OutputFilePaths&lt;br&gt;+ getInputFilenames(): List&amp;lt;String&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1340" y="-1018" width="450" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="SwingUINote" value="Графічний інтерфейс користувача на Swing." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1340" y="-1080" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OutputFilePaths" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;OutputFilePaths&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ String lowPopFile&lt;br&gt;+ String midPopFile&lt;br&gt;+ String highPopFile&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ OutputFilePaths(String low, String mid, String high)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2090" y="-128" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Country" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Country&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- int number&lt;br&gt;- String state&lt;br&gt;- double population&lt;br&gt;- String capital&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ Country(int, String, double, String)&lt;br&gt;+ getNumber(): int&lt;br&gt;+ getState(): String&lt;br&gt;+ getPopulation(): double&lt;br&gt;+ getCapital(): String&lt;br&gt;+ toString(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2330" y="-388" width="280" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="SortType" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SortType&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;BY_STATE&lt;br&gt;BY_POPULATION_STATE&lt;br&gt;BY_CAPITAL_STATE&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- String description&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ getDescription(): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1690" y="-728" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ICountryReader" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ICountryReader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ List&amp;lt;Country&amp;gt; readCountries(String filePath) throws IOException, CountryDataException&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1835" y="-488" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FileCountryReaderNote" value="Відповідає за читання та парсинг даних країн з файлу." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1540" y="-398" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ICountryWriter" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ICountryWriter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ void writeCountries(List&amp;lt;Country&amp;gt; countries, String filePath) throws IOException&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="232" width="560" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FileCountryWriter" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FileCountryWriter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ void writeCountries(List&amp;lt;Country&amp;gt; countries, String filePath) throws IOException&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="372" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FileCountryWriterNote" value="Відповідає за запис даних країн у файл." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="322" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PopulationClassifier" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PopulationClassifier&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- double lowPopulationMax&lt;br&gt;- double midPopulationMax&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ PopulationClassifier(double lowMax, double midMax)&lt;br&gt;+ Map&amp;lt;String, List&amp;lt;Country&amp;gt;&amp;gt; classifyByPopulation(List&amp;lt;Country&amp;gt; countries)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="62" width="490" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PopulationClassifierNote" value="Класифікує країни за категоріями населення." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="12" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ISorter" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ISorter&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ void sort(List&amp;lt;T&amp;gt; list, Comparator&amp;lt;T&amp;gt; comparator)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="482" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CountrySorter" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CountrySorter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ void sort(List&amp;lt;Country&amp;gt; countries, Comparator&amp;lt;Country&amp;gt; comparator)&lt;br&gt;+ Comparator&amp;lt;Country&amp;gt; getComparator(SortType sortType)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="622" width="460" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CountrySorterNote" value="Сортує список країн на основі вибраного типу сортування." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-2240" y="572" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CountryService" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CountryService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;- ICountryReader countryReader&lt;br&gt;- ICountryWriter countryWriter&lt;br&gt;- PopulationClassifier populationClassifier&lt;br&gt;- CountrySorter countrySorter&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ CountryService(ICountryReader reader, ICountryWriter writer, PopulationClassifier classifier, CountrySorter sorter)&lt;br&gt;+ void processData(List&amp;lt;String&amp;gt; inputFiles, OutputFilePaths outputFiles, SortType sortType) throws IOException, CountryDataException&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1540" y="92" width="630" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CountryServiceNote" value="Координує процес обробки даних: читання, класифікація, сортування, запис." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1540" y="32" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CountryDataException" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CountryDataException&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ CountryDataException(String message)&lt;br&gt;+ CountryDataException(String message, Throwable cause)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1540" y="392" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CountryDataExceptionNote" value="Спеціалізований виняток для помилок, пов&#39;язаних з даними країн." style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1540" y="332" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Main-UserInterface" value="creates and starts" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Main" target="UserInterface" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Main-CountryService" value="creates and injects" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FileCountryReader" target="CountryService" edge="1">
+          <mxGeometry x="-0.2657" y="2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1415" y="-128" />
+              <mxPoint x="-1180" y="-128" />
+              <mxPoint x="-1180" y="92" />
+            </Array>
+            <mxPoint x="-1382" y="-218" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ConsoleUI-UserInterface" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ConsoleUI" target="UserInterface" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1370" y="-648" />
+              <mxPoint x="-1370" y="-808" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwingUI-UserInterface" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SwingUI" target="UserInterface" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ConsoleUI-CountryService" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ConsoleUI" target="CountryService" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-970" y="-628" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwingUI-CountryService" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="SwingUI" target="CountryService" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-850" y="-808" />
+              <mxPoint x="-850" y="177" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UserInterface-SortType" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UserInterface" target="SortType" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UserInterface-OutputFilePaths" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="UserInterface" target="OutputFilePaths" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1930" y="-838" />
+              <mxPoint x="-1930" y="-198" />
+              <mxPoint x="-1910" y="-198" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountryService-ICountryReader" value="" style="endArrow=diamond;endFill=1;endSize=12;html=1;rounded=0;exitX=0.672;exitY=0.016;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="ICountryReader" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CountryService-ICountryWriter" value="" style="endArrow=diamond;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="ICountryWriter" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1570" y="177" />
+              <mxPoint x="-1570" y="202" />
+              <mxPoint x="-1820" y="202" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountryService-PopulationClassifier" value="" style="endArrow=diamond;endFill=1;endSize=12;html=1;rounded=0;exitX=0.001;exitY=0.462;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="PopulationClassifier" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1539" y="162" />
+              <mxPoint x="-1670" y="162" />
+              <mxPoint x="-1670" y="122" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountryService-CountrySorter" value="" style="endArrow=diamond;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="CountrySorter" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CountryService-Country" value="processes" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="Country" edge="1">
+          <mxGeometry x="-0.3441" y="60" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1540" y="-223" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountryService-SortType" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="SortType" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1192.5" y="1382" as="sourcePoint" />
+            <mxPoint x="-1360" y="-623.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1050" y="92" />
+              <mxPoint x="-1050" y="-498" />
+              <mxPoint x="-1400" y="-498" />
+              <mxPoint x="-1400" y="-658" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountryService-OutputFilePaths" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryService" target="OutputFilePaths" edge="1">
+          <mxGeometry x="0.1338" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1540" y="132" />
+              <mxPoint x="-1690" y="132" />
+              <mxPoint x="-1690" y="-68" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FileCountryReader-ICountryReader" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FileCountryReader" target="ICountryReader" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FileCountryWriter-ICountryWriter" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FileCountryWriter" target="ICountryWriter" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FileCountryReader-Country" value="creates" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FileCountryReader" target="Country" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FileCountryReader-CountryDataException" value="throws" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FileCountryReader" target="CountryDataException" edge="1">
+          <mxGeometry x="-0.1149" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1555" y="-210" />
+              <mxPoint x="-1610" y="-210" />
+              <mxPoint x="-1610" y="412" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FileCountryWriter-Country" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.133;entryY=1.008;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FileCountryWriter" target="Country" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2310" y="402" />
+              <mxPoint x="-2310" y="-166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PopulationClassifier-Country" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PopulationClassifier" target="Country" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CountrySorter-ISorter" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.862;entryY=0.966;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountrySorter" target="ISorter" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CountrySorter-Country" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountrySorter" target="Country" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2360" y="642" />
+              <mxPoint x="-2360" y="-223" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountrySorter-SortType" value="uses" style="endArrow=open;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.79;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountrySorter" target="SortType" edge="1">
+          <mxGeometry x="-0.1467" y="-10" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-2450" y="662" />
+              <mxPoint x="-2450" y="-498" />
+              <mxPoint x="-1830" y="-498" />
+              <mxPoint x="-1830" y="-617" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CountryDataException-Exception" value="extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="CountryDataException" edge="1" target="Exception">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1520" y="1262" as="sourcePoint" />
+            <mxPoint x="-1610" y="1262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Exception" value="Exception" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=14;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1635" y="502" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5QhChtxqeym34IBm0rje-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Exception" target="Exception">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5QhChtxqeym34IBm0rje-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Main" target="FileCountryReader">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1880" y="-861" />
+              <mxPoint x="-1880" y="-308" />
+            </Array>
+            <mxPoint x="-1910" y="-35" as="sourcePoint" />
+            <mxPoint x="-1155" y="1602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FileCountryReader" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;FileCountryReader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt;+ List&amp;lt;Country&amp;gt; readCountries(String filePath) throws IOException, CountryDataException&lt;br&gt;- Country parseLine(String line, int lineNumber, String filename) throws CountryDataException&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1835" y="-348" width="560" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
